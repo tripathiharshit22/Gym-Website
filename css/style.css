@@ -1,0 +1,139 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+
+    color: aliceblue;
+    margin: 0px;
+    padding: 0px;
+    
+    background-size: cover;
+
+
+
+}
+
+.left {
+    position: absolute;
+
+    left: 50px;
+
+    top: 20px;
+    display: inline-block;
+
+}
+
+.left img {
+    width: 90px;
+
+    margin: 6px;
+    padding: 2px 9px;
+}
+
+.left div {
+    text-align: center;
+    line-height: 29px;
+
+}
+
+.mid {
+    display: block;
+
+    width: 39%;
+    margin: 29px auto;
+
+
+
+}
+
+.right {
+    position: absolute;
+
+    right: 34px;
+
+    top: 43px;
+
+    display: inline-block;
+    background-color: black;
+
+}
+
+.right button:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+
+.navbar {
+    display: inline-block;
+}
+
+.navbar li {
+    display: inline-block;
+
+    font-size: 15px;
+    padding: 1px 3px;
+}
+
+.navbar li a {
+    color: rgb(125, 125, 125);
+    text-decoration: none;
+    padding: 12px 10px;
+    font-size: 20px;
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.btn {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0px 9px;
+    background-color: rgb(4, 4, 4);
+    color: rgb(255, 255, 255);
+    padding: 4px 14px;
+    border: 2px solid rgb(111, 102, 102);
+    border-radius: 8px;
+    font-size: 12px;
+    cursor: pointer;
+
+
+}
+
+.container {
+    border: 2px solid #2f2929;
+    margin: 106px 80px;
+    padding: 75px;
+    border-radius: 28px;
+    width: 33%;
+
+}
+
+.container button {
+    display: block;
+    width: 98%;
+    margin: 29px auto;
+
+}
+
+.container button:hover {
+    background-color: rgb(26, 26, 26);
+}
+
+
+.form-group input {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    display: block;
+    width: 484px;
+    padding: 1px;
+    font-size: 22px;
+    border: 2px solid black;
+    margin: 11px auto;
+    border-radius: 12px;
+}
+
+.container h1 {
+    text-align: center;
+}
